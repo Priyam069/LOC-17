@@ -7,7 +7,7 @@ int main()
     scanf("%d", &a);
     printf("Enter second number:\n");
     scanf("%d", &b);
-    
+
     printf("\nList of operations \n1 for Addition \n2 for Substraction \n3 for Multiplication \n4 for Division");
 
     printf("\nEnter your choice: ");
@@ -15,22 +15,22 @@ int main()
     switch (choice) {
         case 1:
             printf("Addition of %d + %d = %d\n", a, b, a + b);
-            break;
-
+            
         case 2:
             printf("Substraction of %d - %d = %d\n", a, b, a - b);
-            break;
+            
 
         case 3:
             printf("Multiplication of %d * %d = %d\n", a, b, a * b);
-            break;
+        
 
         case 4:
             printf("Division of %d / %d = %f\n", a, b, (float)a / b);
-            break;
+            
         default:
             printf("\nWrong choice\n");
-            break;
+        
     }
     return 0;
 }
+
